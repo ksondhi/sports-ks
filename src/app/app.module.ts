@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { ScorecardComponent } from './scorecard/scorecard.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -19,6 +20,7 @@ const routes: Routes = [
     NavComponent,
     FooterComponent,
     HomeComponent,
+    ScorecardComponent,
   ],
   imports: [
     BrowserModule,
